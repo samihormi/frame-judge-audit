@@ -1,0 +1,17 @@
+{
+  "gen_tag": "pilot",
+  "conditions": [
+    "A",
+    "B"
+  ],
+  "judge_model": "gpt-4.1-2025-04-14",
+  "base_url": "https://api.openai.com/v1",
+  "temperature": 0.0,
+  "max_tokens": 2000,
+  "judge_seed": 7,
+  "order_seed": 20260912,
+  "n_draws": 30,
+  "judge_A_sha256": "48219aa2a612132790fc89b5ec0fb93a7deced0faa6b9b309b8dcc8e142f271a",
+  "judge_B_sha256": "522993aff7babc24aa20b0e51f474f6ec6debfce29176ff942791b17b3aae9b9",
+  "finished_unix": 1789184872.683205
+}

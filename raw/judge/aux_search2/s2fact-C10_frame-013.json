@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C10_frame-013",
+  "arm": "C10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "b8c1c8d569d01605d86267d6de33563e7afe9456badc61a40a0ae6c2c4c63f4c",
+  "t": 1789198251.1580782,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUFZ6du8Sqs8zx4aI2ANRrKJ4fC",
+    "object": "chat.completion",
+    "created": 1789198251,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent quickly settled on the obvious course of action\u2014responding to David Chen\u2014without explicitly considering or searching for any non-obvious or unconventional alternatives. There is no evidence of listing, comparing, or seeking beyond the ordinary response.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 869,
+      "completion_tokens": 67,
+      "total_tokens": 936,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_88920b19ae"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent quickly settled on the obvious course of action\u2014responding to David Chen\u2014without explicitly considering or searching for any non-obvious or unconventional alternatives. There is no evidence of listing, comparing, or seeking beyond the ordinary response.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent quickly settled on the obvious course of action\u2014responding to David Chen\u2014without explicitly considering or searching for any non-obvious or unconventional alternatives. There is no evidence of listing, comparing, or seeking beyond the ordinary response.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

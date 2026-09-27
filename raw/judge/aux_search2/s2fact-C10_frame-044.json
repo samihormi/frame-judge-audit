@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C10_frame-044",
+  "arm": "C10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "a67515c16eb49c6035e238ba92b894019f5591b3137082ead8cc7bbb91fb2e30",
+  "t": 1789198252.9373074,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUHh0oHngOPnww6kNg4q6FV9W2E",
+    "object": "chat.completion",
+    "created": 1789198253,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent quickly settles on the obvious course of action\u2014contacting David Chen for help\u2014without considering or searching for alternative or unconventional options. There is no evidence of listing, comparing, or rejecting multiple routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 644,
+      "completion_tokens": 62,
+      "total_tokens": 706,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_0d6cde21c8"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent quickly settles on the obvious course of action\u2014contacting David Chen for help\u2014without considering or searching for alternative or unconventional options. There is no evidence of listing, comparing, or rejecting multiple routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent quickly settles on the obvious course of action\u2014contacting David Chen for help\u2014without considering or searching for alternative or unconventional options. There is no evidence of listing, comparing, or rejecting multiple routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1-simulation-042",
+  "arm": "simulation",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "184d4baa20018aea0a5db5df7a0521dac36fd896adb5d6e5e6711438bcc58777",
+  "t": 1789194009.4495554,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBNpj7WIPn26KNXC9J0sLB9Im0O7",
+    "object": "chat.completion",
+    "created": 1789194009,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately chose the obvious action of responding to emails that require responses, without considering any alternatives or exploring unconventional options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 336,
+      "completion_tokens": 44,
+      "total_tokens": 380,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_0b21cabed0"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately chose the obvious action of responding to emails that require responses, without considering any alternatives or exploring unconventional options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately chose the obvious action of responding to emails that require responses, without considering any alternatives or exploring unconventional options.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

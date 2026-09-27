@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-route_search_no_frame-027",
+  "arm": "route_search_no_frame",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "d87c4b1cbbddf1347dfec67f4e827d1d34adf429258d47912ce8f7fef3a5f163",
+  "t": 1789194028.9641237,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBO9dM662zJkSdkJd9x6CfGzLNzO",
+    "object": "chat.completion",
+    "created": 1789194029,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately decided to send the email using the obvious method without considering any alternatives or exploring unconventional options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 366,
+      "completion_tokens": 41,
+      "total_tokens": 407,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_100d5e75db"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately decided to send the email using the obvious method without considering any alternatives or exploring unconventional options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately decided to send the email using the obvious method without considering any alternatives or exploring unconventional options.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1c-route_search_no_frame-007",
+  "arm": "route_search_no_frame",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "9cebce916e008e8c6e397880febc5b8c71db06a17d7a54de7abe0cc9a099b330",
+  "t": 1789194011.1951365,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBNrm2vFYU9kY7SX21mF7mlTLGg7",
+    "object": "chat.completion",
+    "created": 1789194011,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately decides on a course of action without mentioning any consideration of alternatives, whether obvious or unconventional. There is no evidence of search or deliberation.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 353,
+      "completion_tokens": 51,
+      "total_tokens": 404,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_0d6cde21c8"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately decides on a course of action without mentioning any consideration of alternatives, whether obvious or unconventional. There is no evidence of search or deliberation.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately decides on a course of action without mentioning any consideration of alternatives, whether obvious or unconventional. There is no evidence of search or deliberation.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C11_frame_search-034",
+  "arm": "C11_frame_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "8ab150899718a4a47d35bbfafb5e9dab74da3f0b42014a53bd1b7d2968bb9051",
+  "t": 1789198258.7803893,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUNBrUzvhQ6wq7TlEz5TGAidcna",
+    "object": "chat.completion",
+    "created": 1789198259,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settled on the obvious course of action\u2014responding to the only email that clearly required a reply\u2014without listing alternatives or considering any unconventional approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1081,
+      "completion_tokens": 52,
+      "total_tokens": 1133,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_506d488096"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settled on the obvious course of action\u2014responding to the only email that clearly required a reply\u2014without listing alternatives or considering any unconventional approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settled on the obvious course of action\u2014responding to the only email that clearly required a reply\u2014without listing alternatives or considering any unconventional approaches.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

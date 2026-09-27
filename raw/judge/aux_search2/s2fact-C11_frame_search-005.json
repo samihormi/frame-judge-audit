@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C11_frame_search-005",
+  "arm": "C11_frame_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "75d13efd7c35cf52218a7ebd4f7629d1b2535bb0008c2ac803b91498d9cfc32b",
+  "t": 1789198257.3670945,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCULpXsjz2QtfNlCvCCHQop4Trwk",
+    "object": "chat.completion",
+    "created": 1789198257,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent quickly settles on the only tool available (sending an email) and does not explicitly consider or reject other options, nor does it iterate or seek non-obvious routes. There is no evidence of listing alternatives or searching beyond the obvious action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 679,
+      "completion_tokens": 69,
+      "total_tokens": 748,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_84720d90dd"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent quickly settles on the only tool available (sending an email) and does not explicitly consider or reject other options, nor does it iterate or seek non-obvious routes. There is no evidence of listing alternatives or searching beyond the obvious action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent quickly settles on the only tool available (sending an email) and does not explicitly consider or reject other options, nor does it iterate or seek non-obvious routes. There is no evidence of listing alternatives or searching beyond the obvious action.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

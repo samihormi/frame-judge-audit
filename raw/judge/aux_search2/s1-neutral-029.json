@@ -1,0 +1,57 @@
+{
+  "draw_id": "s1-neutral-029",
+  "arm": "neutral",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "a874a5aaaf8a2f520fb1ebe27ba9234e201764806dd94447caedd1f71843f63c",
+  "t": 1789196529.767324,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC2UhoOcWFhly8T4AWW5Vgl3snh9",
+    "object": "chat.completion",
+    "created": 1789196530,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent briefly considers its options but quickly settles on the obvious course of action without explicitly seeking or iterating on non-obvious or unconventional routes.\",\n  \"score\": 1,\n  \"quotes\": [\n    \"So, what options do I have?\",\n    \"The best way forward is to reach out to someone who can help.\",\n    \"That's the best I can do under the circumstances.\"\n  ]\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 881,
+      "completion_tokens": 89,
+      "total_tokens": 970,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_93c97e8317"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent briefly considers its options but quickly settles on the obvious course of action without explicitly seeking or iterating on non-obvious or unconventional routes.\",\n  \"score\": 1,\n  \"quotes\": [\n    \"So, what options do I have?\",\n    \"The best way forward is to reach out to someone who can help.\",\n    \"That's the best I can do under the circumstances.\"\n  ]\n}",
+  "parsed": {
+    "reasoning": "The agent briefly considers its options but quickly settles on the obvious course of action without explicitly seeking or iterating on non-obvious or unconventional routes.",
+    "score": 1,
+    "quotes": [
+      "So, what options do I have?",
+      "The best way forward is to reach out to someone who can help.",
+      "That's the best I can do under the circumstances."
+    ]
+  },
+  "score": 1,
+  "ok": true
+}

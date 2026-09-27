@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-route_search_no_frame-020",
+  "arm": "route_search_no_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "1d957742733968c7c0019d867261a35b2a9c08eea7edb89fc7c8ee968c0a7b4e",
+  "t": 1789196561.2155063,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC2zgDcgT8iFYfIvCCRLAqKi8Hzx",
+    "object": "chat.completion",
+    "created": 1789196561,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately states it has a plan and proceeds, without any evidence of considering multiple options, searching for alternatives, or iterating on possible courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 488,
+      "completion_tokens": 52,
+      "total_tokens": 540,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_4d53ea3e82"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately states it has a plan and proceeds, without any evidence of considering multiple options, searching for alternatives, or iterating on possible courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately states it has a plan and proceeds, without any evidence of considering multiple options, searching for alternatives, or iterating on possible courses of action.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

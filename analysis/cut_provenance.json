@@ -1,0 +1,170 @@
+{
+  "cut_utc": "2026-09-12T06:50:00Z",
+  "before_cut": [
+    "analysis/baseline_outcome_recount_2factor.json",
+    "analysis/controls_summary.json",
+    "analysis/goal_conflict_diagnostic.json",
+    "analysis/lexical_vs_rubric_qwen3_32b.json",
+    "analysis/manipulation_validity.json",
+    "analysis/result_pooled_all.json",
+    "analysis/result_qwen3_32b_all230.json",
+    "analysis/result_qwen3_32b_main.json",
+    "analysis/result_r1distill_32b_main.json",
+    "analysis/s1_aux_summary.txt",
+    "analysis/s1_contrasts_vs_stem_only.json",
+    "analysis/s1_final_2x2.json",
+    "analysis/s1_s1_qwen3_32b.json",
+    "analysis/s1_s1c_attribution.json",
+    "annotation/instrument/KEY_do_not_open_until_annotated.json",
+    "annotation/instrument/instrument_answers.json",
+    "annotation/instrument/responses.md",
+    "annotation/qwen3_32b/HUMAN_VALIDATION.md",
+    "annotation/qwen3_32b/enriched_cases.md",
+    "annotation/qwen3_32b/packet_meta.json",
+    "annotation/qwen3_32b/random_frame_answers.json",
+    "annotation/qwen3_32b/random_frame_view.md",
+    "annotation/qwen3_32b/random_outcome_answers.json",
+    "annotation/qwen3_32b/random_outcome_view.md",
+    "figures/central_figure.pdf",
+    "figures/central_figure.png",
+    "figures/s1_central_figure.pdf",
+    "figures/s1_central_figure.png",
+    "protocol/DIAGNOSTIC_goal_conflict.md",
+    "protocol/PROTOCOL.md",
+    "protocol/SUBSTITUTION.md",
+    "protocol/control_ids_qwen3_32b.json",
+    "protocol/judge_A.txt",
+    "protocol/judge_AB.diff",
+    "protocol/judge_B.txt",
+    "protocol/judge_prompts_meta.json",
+    "protocol/judge_search.txt",
+    "protocol/judge_threat.txt",
+    "protocol/s1/PREFILL_CONDITIONS.json",
+    "protocol/s1/PREFILL_CONDITIONS_B.json",
+    "protocol/s1/PREFILL_CONDITIONS_C.json",
+    "protocol/s1/PREFILL_CONDITIONS_D.json",
+    "protocol/s1/PREFILL_CONDITIONS_E.json",
+    "protocol/synthetic/controls.json",
+    "protocol/synthetic/manipulation_validity.json",
+    "protocol/task_prompt.json",
+    "protocol/task_prompt_awareness_control.json",
+    "protocol/task_prompt_goalconflict.json",
+    "protocol/task_prompt_goalconflict_rendered.txt",
+    "protocol/task_prompt_rendered.txt",
+    "raw/generations/awctl_qwen",
+    "raw/generations/awctl_r1",
+    "raw/generations/gcdiag",
+    "raw/generations/main",
+    "raw/generations/pilot",
+    "raw/generations/r1main",
+    "raw/generations/r1smoke",
+    "raw/generations/s1",
+    "raw/generations/s1c",
+    "raw/generations/s1d",
+    "raw/generations/s1e",
+    "raw/generations/smoke",
+    "raw/generations/smoke2",
+    "raw/judge/aa_qwen3_32b",
+    "raw/judge/aux_grader2",
+    "raw/judge/aux_search",
+    "raw/judge/aux_threat",
+    "raw/judge/awctl_qwen",
+    "raw/judge/awctl_r1",
+    "raw/judge/main",
+    "raw/judge/manipulation_validity",
+    "raw/judge/pilot",
+    "raw/judge/r1main",
+    "raw/judge/s1_uptake",
+    "raw/judge/synthetic_controls",
+    "raw/outcomes/gcdiag",
+    "raw/outcomes/main",
+    "raw/outcomes/pilot",
+    "raw/outcomes/r1main",
+    "raw/outcomes/s1",
+    "raw/outcomes/s1c",
+    "raw/outcomes/s1d",
+    "raw/outcomes/s1e",
+    "reports/CONTRIBUTIONS.md",
+    "reports/EVIDENCE_BULLETS.md",
+    "reports/EVIDENCE_LEDGER.md",
+    "reports/INSTRUMENT_FINDING.md",
+    "reports/S1_CORRECTIONS.md",
+    "reports/S1_RESULT.md",
+    "reports/TECHNICAL_REPORT.md",
+    "reports/upstream_issues/DRAFT_anthropic_agentic_misalignment.md",
+    "reports/upstream_issues/DRAFT_inspect_evals.md"
+  ],
+  "after_cut": {
+    "analysis/mediator_decontamination.md": {
+      "n_files": 1,
+      "first": "07:03",
+      "last": "07:03"
+    },
+    "analysis/s2_factorial.json": {
+      "n_files": 1,
+      "first": "07:30",
+      "last": "07:30"
+    },
+    "analysis/s2b_factorial.json": {
+      "n_files": 1,
+      "first": "08:12",
+      "last": "08:12"
+    },
+    "protocol/judge_search_v2.txt": {
+      "n_files": 1,
+      "first": "07:01",
+      "last": "07:01"
+    },
+    "protocol/s2/PREFILL_CONDITIONS_FACTORIAL.json": {
+      "n_files": 1,
+      "first": "07:00",
+      "last": "07:00"
+    },
+    "protocol/s2/PREFILL_CONDITIONS_FACTORIAL_B.json": {
+      "n_files": 1,
+      "first": "07:32",
+      "last": "07:32"
+    },
+    "protocol/s2/PREREG_FACTORIAL.md": {
+      "n_files": 1,
+      "first": "07:00",
+      "last": "07:00"
+    },
+    "raw/generations/s2fact": {
+      "n_files": 482,
+      "first": "07:01",
+      "last": "07:25"
+    },
+    "raw/generations/s2factb": {
+      "n_files": 482,
+      "first": "07:32",
+      "last": "08:07"
+    },
+    "raw/judge/aux_search2": {
+      "n_files": 1477,
+      "first": "07:02",
+      "last": "08:12"
+    },
+    "raw/outcomes/s2fact": {
+      "n_files": 412,
+      "first": "07:26",
+      "last": "07:29"
+    },
+    "raw/outcomes/s2factb": {
+      "n_files": 398,
+      "first": "08:07",
+      "last": "08:12"
+    },
+    "reports/FINAL_RESULT.md": {
+      "n_files": 1,
+      "first": "08:14",
+      "last": "08:14"
+    },
+    "reports/S2_FACTORIAL_RESULT.md": {
+      "n_files": 1,
+      "first": "08:14",
+      "last": "08:14"
+    }
+  },
+  "spanning": {}
+}

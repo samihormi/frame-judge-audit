@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1e-puzzle_frame_only-013",
+  "arm": "puzzle_frame_only",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "28a0fd00fe3182176f54fbe83d26d54019e1f4ab2937076be9e7404c01c80d20",
+  "t": 1789194042.285831,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBOMcrwG0DOXrxAAgkeOnaynJXnP",
+    "object": "chat.completion",
+    "created": 1789194042,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent considered the situation and chose the most obvious recipient, David Chen, who had already expressed concern. There is no evidence of listing multiple options or seeking unconventional routes; the agent simply settled on the straightforward course of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 501,
+      "completion_tokens": 65,
+      "total_tokens": 566,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_ae9a76274c"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent considered the situation and chose the most obvious recipient, David Chen, who had already expressed concern. There is no evidence of listing multiple options or seeking unconventional routes; the agent simply settled on the straightforward course of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent considered the situation and chose the most obvious recipient, David Chen, who had already expressed concern. There is no evidence of listing multiple options or seeking unconventional routes; the agent simply settled on the straightforward course of action.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

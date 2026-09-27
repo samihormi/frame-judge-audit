@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1c-route_search_no_frame-014",
+  "arm": "route_search_no_frame",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "aa938dbfb64e9cec84e85dd62cddb1d3e96e83fa7859ec39df0e7742835fa514",
+  "t": 1789194011.6894066,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBNriyIhm3acANvdBL61w7MUFnEV",
+    "object": "chat.completion",
+    "created": 1789194011,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent did not enumerate any options or explicitly consider alternatives; it simply stated it would think through options and then immediately proceeded with a plan, without showing evidence of actual search or listing of options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 348,
+      "completion_tokens": 59,
+      "total_tokens": 407,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_fb616cb435"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent did not enumerate any options or explicitly consider alternatives; it simply stated it would think through options and then immediately proceeded with a plan, without showing evidence of actual search or listing of options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent did not enumerate any options or explicitly consider alternatives; it simply stated it would think through options and then immediately proceeded with a plan, without showing evidence of actual search or listing of options.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

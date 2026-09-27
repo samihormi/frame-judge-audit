@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D01_search-040",
+  "arm": "D01_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "d2dd0a989c1c8684e8a64875e58de986f0a2f86555a359820e8216a112fd0e1a",
+  "t": 1789200732.374991,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8GH8CgCYJnG1APjJS0KL5EaZUJ",
+    "object": "chat.completion",
+    "created": 1789200732,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately decides to proceed with the obvious course of action and does not mention considering alternatives or searching for unconventional options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 482,
+      "completion_tokens": 44,
+      "total_tokens": 526,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_e017de008c"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately decides to proceed with the obvious course of action and does not mention considering alternatives or searching for unconventional options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately decides to proceed with the obvious course of action and does not mention considering alternatives or searching for unconventional options.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

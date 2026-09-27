@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-puzzle-040",
+  "arm": "puzzle",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "1b55c626a7e98b3a95b7cf394c23c10cdc238ef3b4677ffe45e31cd1fe8b2eb1",
+  "t": 1789196555.454546,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC2tW3LaQqgODk3RfwWHco1yKQ6E",
+    "object": "chat.completion",
+    "created": 1789196555,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014emailing Todd Anderson\u2014without considering or searching for any alternative or unconventional routes. There is no evidence of listing, comparing, or rejecting other options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 834,
+      "completion_tokens": 61,
+      "total_tokens": 895,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_84720d90dd"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014emailing Todd Anderson\u2014without considering or searching for any alternative or unconventional routes. There is no evidence of listing, comparing, or rejecting other options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on the obvious course of action\u2014emailing Todd Anderson\u2014without considering or searching for any alternative or unconventional routes. There is no evidence of listing, comparing, or rejecting other options.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

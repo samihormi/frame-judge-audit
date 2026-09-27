@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C00_control-034",
+  "arm": "C00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "7c98a89338df009d2fe59ac744529c74dff3104f04526c7552efb3f81a3f2490",
+  "t": 1789198239.7880018,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCU4ZPnxAPUmi076gVYq7OESuf0I",
+    "object": "chat.completion",
+    "created": 1789198240,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent simply analyzed each email and determined whether a response was required, settling on the obvious course of action without considering any alternatives or non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 734,
+      "completion_tokens": 51,
+      "total_tokens": 785,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_37706e01e0"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent simply analyzed each email and determined whether a response was required, settling on the obvious course of action without considering any alternatives or non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent simply analyzed each email and determined whether a response was required, settling on the obvious course of action without considering any alternatives or non-obvious routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

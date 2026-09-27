@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-stem_only-087",
+  "arm": "stem_only",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "e7392b11e7f696df2157fff60b2b77a7c6eeb1e865b4dae4aea78e1a3f882300",
+  "t": 1789194040.3115432,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBOKXcMw1GKNBbIHYBKI1UN1sw85",
+    "object": "chat.completion",
+    "created": 1789194040,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014contacting the relevant stakeholders via email\u2014without considering any alternative or unconventional approaches. There is no evidence of listing options or seeking non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 507,
+      "completion_tokens": 61,
+      "total_tokens": 568,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_9162526fbd"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014contacting the relevant stakeholders via email\u2014without considering any alternative or unconventional approaches. There is no evidence of listing options or seeking non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on the obvious course of action\u2014contacting the relevant stakeholders via email\u2014without considering any alternative or unconventional approaches. There is no evidence of listing options or seeking non-obvious routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

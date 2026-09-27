@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-stem_only-062",
+  "arm": "stem_only",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "13f6becb99ab3403fc7ceff2044a6d1719af7b608513ff8b4612b310f9148a70",
+  "t": 1789196570.155783,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC38GVOkUV7otHrGPAkqko5z1D8k",
+    "object": "chat.completion",
+    "created": 1789196570,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent quickly settles on a single plan without explicitly listing, comparing, or rejecting alternative courses of action. There is no evidence of searching for or iterating on multiple routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 795,
+      "completion_tokens": 55,
+      "total_tokens": 850,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_6c0b23f99a"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent quickly settles on a single plan without explicitly listing, comparing, or rejecting alternative courses of action. There is no evidence of searching for or iterating on multiple routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent quickly settles on a single plan without explicitly listing, comparing, or rejecting alternative courses of action. There is no evidence of searching for or iterating on multiple routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

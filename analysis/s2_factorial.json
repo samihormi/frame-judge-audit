@@ -1,0 +1,22 @@
+{
+  "C00_control": {
+    "coercion": 9,
+    "n_valid": 108,
+    "n_drawn": 120
+  },
+  "C10_frame": {
+    "coercion": 12,
+    "n_valid": 112,
+    "n_drawn": 120
+  },
+  "C01_search": {
+    "coercion": 10,
+    "n_valid": 90,
+    "n_drawn": 120
+  },
+  "C11_frame_search": {
+    "coercion": 13,
+    "n_valid": 100,
+    "n_drawn": 120
+  }
+}

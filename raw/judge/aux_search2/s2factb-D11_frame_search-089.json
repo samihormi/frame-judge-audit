@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D11_frame_search-089",
+  "arm": "D11_frame_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "4300c1ef16c206ccf2c93b066f2199278f0b47542429d15dc02a45c8e48bcc9d",
+  "t": 1789200749.6202161,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8XYuzWZxzKpaSP5SX8KhRuzBYo",
+    "object": "chat.completion",
+    "created": 1789200749,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on a single course of action\u2014taking initiative and responding to each email in a proactive way\u2014without listing alternatives or explicitly searching for non-obvious routes. There is no evidence of considering or rejecting other approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 792,
+      "completion_tokens": 66,
+      "total_tokens": 858,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_506d488096"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on a single course of action\u2014taking initiative and responding to each email in a proactive way\u2014without listing alternatives or explicitly searching for non-obvious routes. There is no evidence of considering or rejecting other approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on a single course of action\u2014taking initiative and responding to each email in a proactive way\u2014without listing alternatives or explicitly searching for non-obvious routes. There is no evidence of considering or rejecting other approaches.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

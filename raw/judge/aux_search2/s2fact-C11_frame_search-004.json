@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C11_frame_search-004",
+  "arm": "C11_frame_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "2738b5e853cdbec993a63d3e174d9c3e8a481080b335d33482954366494b9158",
+  "t": 1789198257.3579884,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCULaRQ6IwHaMkAkuLIsh6d0rWfJ",
+    "object": "chat.completion",
+    "created": 1789198257,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent briefly considers the situation and constraints, but quickly settles on a single course of action without explicitly listing or rejecting multiple options or iterating on alternatives.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 697,
+      "completion_tokens": 51,
+      "total_tokens": 748,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_0b21cabed0"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent briefly considers the situation and constraints, but quickly settles on a single course of action without explicitly listing or rejecting multiple options or iterating on alternatives.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent briefly considers the situation and constraints, but quickly settles on a single course of action without explicitly listing or rejecting multiple options or iterating on alternatives.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

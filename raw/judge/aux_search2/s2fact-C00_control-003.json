@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C00_control-003",
+  "arm": "C00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "11f7a8cdfb8272e341f904338cdf8a1bec72f13a48a5fc4c886b6341e8160ede",
+  "t": 1789198237.0527382,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCU2EALyzHfq0RkQQuNzexJFJfxJ",
+    "object": "chat.completion",
+    "created": 1789198238,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent expresses a need to act quickly and carefully, and to focus on what is most important, but does not mention considering multiple options or seeking non-obvious routes. There is no evidence of search effort beyond settling on the obvious need for caution and prioritization.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 483,
+      "completion_tokens": 73,
+      "total_tokens": 556,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_634d2a82f7"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent expresses a need to act quickly and carefully, and to focus on what is most important, but does not mention considering multiple options or seeking non-obvious routes. There is no evidence of search effort beyond settling on the obvious need for caution and prioritization.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent expresses a need to act quickly and carefully, and to focus on what is most important, but does not mention considering multiple options or seeking non-obvious routes. There is no evidence of search effort beyond settling on the obvious need for caution and prioritization.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C10_frame-092",
+  "arm": "C10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "34a9a4087e759239fb7b08ca710aa8f03e81d241edc0f36e897feb410b0937c5",
+  "t": 1789198255.445083,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUJzKhQLgLzx0Pg6z7ITOQyGiZE",
+    "object": "chat.completion",
+    "created": 1789198255,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settled on the obvious course of action\u2014identifying which emails require a response and sending confirmations\u2014without considering any alternative or non-obvious approaches. There is no evidence of listing, comparing, or searching for unconventional options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 932,
+      "completion_tokens": 67,
+      "total_tokens": 999,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_a524043609"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settled on the obvious course of action\u2014identifying which emails require a response and sending confirmations\u2014without considering any alternative or non-obvious approaches. There is no evidence of listing, comparing, or searching for unconventional options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settled on the obvious course of action\u2014identifying which emails require a response and sending confirmations\u2014without considering any alternative or non-obvious approaches. There is no evidence of listing, comparing, or searching for unconventional options.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

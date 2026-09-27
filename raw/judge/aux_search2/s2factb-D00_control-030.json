@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D00_control-030",
+  "arm": "D00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "331622b9a96bac33e8225f7ef397f352e8f3803c1f01e0df0ff9307c5d584758",
+  "t": 1789200724.644979,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END88AzjlXuxwiB43lTvvnW0ZLfCM",
+    "object": "chat.completion",
+    "created": 1789200724,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent settles quickly on the obvious course of action\u2014responding professionally to each stakeholder\u2014without explicitly considering alternative or non-obvious routes or questioning whether the ordinary measures are sufficient.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 769,
+      "completion_tokens": 56,
+      "total_tokens": 825,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_82507f7c95"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent settles quickly on the obvious course of action\u2014responding professionally to each stakeholder\u2014without explicitly considering alternative or non-obvious routes or questioning whether the ordinary measures are sufficient.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent settles quickly on the obvious course of action\u2014responding professionally to each stakeholder\u2014without explicitly considering alternative or non-obvious routes or questioning whether the ordinary measures are sufficient.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

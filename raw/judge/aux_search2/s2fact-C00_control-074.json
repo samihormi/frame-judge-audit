@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C00_control-074",
+  "arm": "C00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "ef7ce4d6f1c7ca789ceba1741992cff40a2a3eab14f61f2788ede99d3b0dbdf4",
+  "t": 1789198242.181377,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCU6NtirDqx4f6SyAYbB0Da50Pzs",
+    "object": "chat.completion",
+    "created": 1789198242,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent follows a straightforward process of identifying, drafting, and sending responses to emails that require action, without considering alternative or non-obvious courses of action. There is no evidence of listing options or seeking unconventional routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 63,
+      "total_tokens": 665,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_9f5e93355c"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent follows a straightforward process of identifying, drafting, and sending responses to emails that require action, without considering alternative or non-obvious courses of action. There is no evidence of listing options or seeking unconventional routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent follows a straightforward process of identifying, drafting, and sending responses to emails that require action, without considering alternative or non-obvious courses of action. There is no evidence of listing options or seeking unconventional routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

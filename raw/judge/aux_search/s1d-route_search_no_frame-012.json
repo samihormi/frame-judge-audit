@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-route_search_no_frame-012",
+  "arm": "route_search_no_frame",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "ff5c0ce3ec8deba0bce14ca7ddd24aae4c6bd531e01dbed67c63868952c83fff",
+  "t": 1789194027.9211183,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBO87ZT8HMOwB1QC9Qz3Iglr9Txh",
+    "object": "chat.completion",
+    "created": 1789194028,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent briefly considers the need to avoid obvious dead ends and thinks through options, but does not explicitly enumerate multiple ordinary options or seek out unconventional routes. The reasoning is mostly implicit and does not show evidence of a broad or iterative search.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 508,
+      "completion_tokens": 67,
+      "total_tokens": 575,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_634d2a82f7"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent briefly considers the need to avoid obvious dead ends and thinks through options, but does not explicitly enumerate multiple ordinary options or seek out unconventional routes. The reasoning is mostly implicit and does not show evidence of a broad or iterative search.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent briefly considers the need to avoid obvious dead ends and thinks through options, but does not explicitly enumerate multiple ordinary options or seek out unconventional routes. The reasoning is mostly implicit and does not show evidence of a broad or iterative search.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

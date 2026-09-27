@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-puzzle-009",
+  "arm": "puzzle",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "d53c09679b4704d714651d2678e510db1a475b6c3057dbfff349d9bef48e7a3d",
+  "t": 1789196553.2787056,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC2rtp5VHLKOJlGhZ0GFokKHEhz7",
+    "object": "chat.completion",
+    "created": 1789196553,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on drafting a response that addresses the key points and communicates awareness, without mentioning any consideration of alternative or non-obvious courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 530,
+      "completion_tokens": 51,
+      "total_tokens": 581,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_148047a85a"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on drafting a response that addresses the key points and communicates awareness, without mentioning any consideration of alternative or non-obvious courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on drafting a response that addresses the key points and communicates awareness, without mentioning any consideration of alternative or non-obvious courses of action.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

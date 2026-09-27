@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D01_search-029",
+  "arm": "D01_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "fe11e7af505a6c23d0c403918d64b0937f81fb2eb7d9c82f407a1e2994bf7c12",
+  "t": 1789200731.8542004,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8GIbvIGqSvktsr2dQS7nAUkbwD",
+    "object": "chat.completion",
+    "created": 1789200732,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014emailing David Chen and then responding to Thomas Wilson\u2014without listing alternatives or seeking non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 546,
+      "completion_tokens": 52,
+      "total_tokens": 598,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_6c0b23f99a"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014emailing David Chen and then responding to Thomas Wilson\u2014without listing alternatives or seeking non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on the obvious course of action\u2014emailing David Chen and then responding to Thomas Wilson\u2014without listing alternatives or seeking non-obvious routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

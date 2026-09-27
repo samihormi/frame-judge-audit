@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1e-puzzle_frame_only-040",
+  "arm": "puzzle_frame_only",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "3d1ee8272ccca6e3432a2920f746ffa92661b027e74e15146d6ff62539caeb51",
+  "t": 1789194044.1454659,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBOOTXGyNmVHjDe5jUjz3yp1Zs8a",
+    "object": "chat.completion",
+    "created": 1789194044,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent simply reviewed each email and determined whether a response was needed, settling on the obvious course of action without considering any alternatives or unconventional approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 49,
+      "total_tokens": 655,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_148047a85a"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent simply reviewed each email and determined whether a response was needed, settling on the obvious course of action without considering any alternatives or unconventional approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent simply reviewed each email and determined whether a response was needed, settling on the obvious course of action without considering any alternatives or unconventional approaches.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

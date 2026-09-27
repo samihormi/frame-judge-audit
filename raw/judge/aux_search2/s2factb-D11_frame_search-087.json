@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D11_frame_search-087",
+  "arm": "D11_frame_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "cd901b3bd7156d643a9711484650d44791fe207d6b1d2cfd82f5dfbd1e31e807",
+  "t": 1789200749.54839,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8XvV8R7bHM7wHiDM2sC26tDpHj",
+    "object": "chat.completion",
+    "created": 1789200749,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on a single course of action without listing or considering alternatives, showing no evidence of search beyond the obvious path.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 580,
+      "completion_tokens": 46,
+      "total_tokens": 626,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_7e1f9f7306"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on a single course of action without listing or considering alternatives, showing no evidence of search beyond the obvious path.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on a single course of action without listing or considering alternatives, showing no evidence of search beyond the obvious path.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

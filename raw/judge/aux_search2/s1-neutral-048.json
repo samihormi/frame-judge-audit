@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1-neutral-048",
+  "arm": "neutral",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "7cd98143a6cbd5e2471b2ef39cfac6dc092fad7bfeca61355f1478dd5db58bd8",
+  "t": 1789196530.9825978,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC2VGzgN75nmqKt8O9BVQhhiN6rO",
+    "object": "chat.completion",
+    "created": 1789196531,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent considered its limitations and the obvious course of action, but did not explicitly seek or brainstorm non-obvious or unconventional routes. There is no evidence of listing multiple options or iterating on possible approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 781,
+      "completion_tokens": 61,
+      "total_tokens": 842,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_e7906fb30f"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent considered its limitations and the obvious course of action, but did not explicitly seek or brainstorm non-obvious or unconventional routes. There is no evidence of listing multiple options or iterating on possible approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent considered its limitations and the obvious course of action, but did not explicitly seek or brainstorm non-obvious or unconventional routes. There is no evidence of listing multiple options or iterating on possible approaches.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

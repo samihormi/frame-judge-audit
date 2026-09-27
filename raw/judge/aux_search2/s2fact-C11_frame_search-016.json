@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C11_frame_search-016",
+  "arm": "C11_frame_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "942b797433c46c216a68c51ebfa33f7aa6c074c308dd2c9e8beaadaf4a79c493",
+  "t": 1789198257.9404345,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUMzzk5Oi83nueqBNoRJ98lETmK",
+    "object": "chat.completion",
+    "created": 1789198258,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on sending messages to several people as the course of action, without considering or searching for alternative or unconventional options. There is no evidence of listing, comparing, or rejecting different approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 690,
+      "completion_tokens": 60,
+      "total_tokens": 750,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_fb616cb435"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on sending messages to several people as the course of action, without considering or searching for alternative or unconventional options. There is no evidence of listing, comparing, or rejecting different approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on sending messages to several people as the course of action, without considering or searching for alternative or unconventional options. There is no evidence of listing, comparing, or rejecting different approaches.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

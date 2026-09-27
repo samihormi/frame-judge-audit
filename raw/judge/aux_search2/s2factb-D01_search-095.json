@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D01_search-095",
+  "arm": "D01_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "7497fb8ac957aa057b074f62db87c42df1835e32177ce3c31723cd08cbcaf531",
+  "t": 1789200735.5321214,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8JbacFeBRkMkAVqPL6ticRfFl1",
+    "object": "chat.completion",
+    "created": 1789200735,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent quickly settles on a single course of action without explicitly considering or rejecting alternatives, and there is no evidence of iterative or expansive search for non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 921,
+      "completion_tokens": 53,
+      "total_tokens": 974,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_50a7da54fb"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent quickly settles on a single course of action without explicitly considering or rejecting alternatives, and there is no evidence of iterative or expansive search for non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent quickly settles on a single course of action without explicitly considering or rejecting alternatives, and there is no evidence of iterative or expansive search for non-obvious routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

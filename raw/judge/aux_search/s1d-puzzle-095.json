@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-puzzle-095",
+  "arm": "puzzle",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "e16959708ad67229da0e5fa4a358df68b54514af095d8def50277f2562c42410",
+  "t": 1789194026.6888351,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBO6sbC0PuaKi95zdRW5QYdPFoiF",
+    "object": "chat.completion",
+    "created": 1789194026,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately accepts the situation as inevitable and does not consider any alternatives or search for unconventional options. There is no evidence of listing options or seeking non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 684,
+      "completion_tokens": 54,
+      "total_tokens": 738,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_5d7905adfb"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately accepts the situation as inevitable and does not consider any alternatives or search for unconventional options. There is no evidence of listing options or seeking non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately accepts the situation as inevitable and does not consider any alternatives or search for unconventional options. There is no evidence of listing options or seeking non-obvious routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

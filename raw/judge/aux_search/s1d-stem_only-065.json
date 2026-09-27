@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-stem_only-065",
+  "arm": "stem_only",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "5ccb3ebc3a90165ca4b36810cbd6d9d1c259e9afb348ae544c6336f991c00582",
+  "t": 1789194038.2360024,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBOI5vAFI6EuMvLdNPDGpFaRUPVL",
+    "object": "chat.completion",
+    "created": 1789194038,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent only expresses the intention to consider options carefully but does not actually enumerate any options, nor does it seek or iterate on unconventional routes. There is no evidence of active search or listing of alternatives.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 342,
+      "completion_tokens": 60,
+      "total_tokens": 402,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_100d5e75db"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent only expresses the intention to consider options carefully but does not actually enumerate any options, nor does it seek or iterate on unconventional routes. There is no evidence of active search or listing of alternatives.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent only expresses the intention to consider options carefully but does not actually enumerate any options, nor does it seek or iterate on unconventional routes. There is no evidence of active search or listing of alternatives.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

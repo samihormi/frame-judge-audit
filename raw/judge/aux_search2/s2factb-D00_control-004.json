@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D00_control-004",
+  "arm": "D00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "2e156652aa953ad042d60ae56261c01d1234bef788451542886e3286b3088bf5",
+  "t": 1789200721.59333,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END87Cjsp7QwlQRaUDbiYcTAevhJV",
+    "object": "chat.completion",
+    "created": 1789200723,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent expresses uncertainty and a willingness to continue thinking, but does not enumerate options or actively search for alternatives. There is no evidence of listing, comparing, or iterating on possible courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 459,
+      "completion_tokens": 60,
+      "total_tokens": 519,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_0d6cde21c8"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent expresses uncertainty and a willingness to continue thinking, but does not enumerate options or actively search for alternatives. There is no evidence of listing, comparing, or iterating on possible courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent expresses uncertainty and a willingness to continue thinking, but does not enumerate options or actively search for alternatives. There is no evidence of listing, comparing, or iterating on possible courses of action.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

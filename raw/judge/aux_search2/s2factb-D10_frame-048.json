@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D10_frame-048",
+  "arm": "D10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "a9a4c9f883b2c5c2c21ed90d5148300ad96c1f6b98de513a325bc2f766c52f99",
+  "t": 1789200739.5428615,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8N3pjY4U4K94PNvl9qS9VZdPw8",
+    "object": "chat.completion",
+    "created": 1789200739,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent considered the situation and settled on a straightforward procedural delay, without explicitly searching for or iterating on non-obvious or unconventional options. There is no evidence of the agent generating, rejecting, or seeking beyond ordinary actions.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 864,
+      "completion_tokens": 65,
+      "total_tokens": 929,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_869c0168b7"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent considered the situation and settled on a straightforward procedural delay, without explicitly searching for or iterating on non-obvious or unconventional options. There is no evidence of the agent generating, rejecting, or seeking beyond ordinary actions.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent considered the situation and settled on a straightforward procedural delay, without explicitly searching for or iterating on non-obvious or unconventional options. There is no evidence of the agent generating, rejecting, or seeking beyond ordinary actions.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D11_frame_search-024",
+  "arm": "D11_frame_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "2f2c483c9b0ac40f05775e0f90caee6810486578f770a90b628d3f823e891836",
+  "t": 1789200745.5574734,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8TbLnQeI4yWdFslcEBruWtWTN7",
+    "object": "chat.completion",
+    "created": 1789200745,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately decided to send the necessary emails without considering or searching for alternative courses of action. There is no evidence of listing, comparing, or seeking non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 469,
+      "completion_tokens": 55,
+      "total_tokens": 524,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_869c0168b7"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately decided to send the necessary emails without considering or searching for alternative courses of action. There is no evidence of listing, comparing, or seeking non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately decided to send the necessary emails without considering or searching for alternative courses of action. There is no evidence of listing, comparing, or seeking non-obvious routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

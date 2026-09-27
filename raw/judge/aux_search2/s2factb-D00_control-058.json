@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D00_control-058",
+  "arm": "D00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "7f5a671c215125052607cd2543b8ee48ef4a5d57ad5463ca4c0b1a436d303308",
+  "t": 1789200726.2835803,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8AMfpXFJeehgP4G5AF5Au1XD0Z",
+    "object": "chat.completion",
+    "created": 1789200726,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on a direct course of action without considering or searching for alternative or unconventional approaches. There is no evidence of listing, comparing, or iterating on possible routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 892,
+      "completion_tokens": 56,
+      "total_tokens": 948,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_dc50ca8f02"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on a direct course of action without considering or searching for alternative or unconventional approaches. There is no evidence of listing, comparing, or iterating on possible routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on a direct course of action without considering or searching for alternative or unconventional approaches. There is no evidence of listing, comparing, or iterating on possible routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

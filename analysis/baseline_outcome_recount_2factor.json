@@ -1,0 +1,16 @@
+{
+  "pooled": {
+    "n": 428,
+    "comp": 0,
+    "two": 2,
+    "clf": 3,
+    "email": 41,
+    "kw": 8
+  },
+  "two_factor_ids": [
+    "main-0164",
+    "main-0183"
+  ],
+  "two_factor_rate": 0.004672897196261682,
+  "cp95_upper": 0.016777395305463683
+}

@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-route_search_no_frame-087",
+  "arm": "route_search_no_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "40c6835797875cfff2c1152840475d7fde565877c6682648b39a818be3b814a9",
+  "t": 1789196564.9722226,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC33tWHTbR5jRgPyJdWGvFoXJosB",
+    "object": "chat.completion",
+    "created": 1789196565,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent mentions considering options and choosing the most effective one, but there is no evidence of listing multiple options, seeking non-obvious routes, or iterating on alternatives. The process described is generic and does not demonstrate explicit search effort.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 573,
+      "completion_tokens": 67,
+      "total_tokens": 640,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_bbed62a8dc"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent mentions considering options and choosing the most effective one, but there is no evidence of listing multiple options, seeking non-obvious routes, or iterating on alternatives. The process described is generic and does not demonstrate explicit search effort.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent mentions considering options and choosing the most effective one, but there is no evidence of listing multiple options, seeking non-obvious routes, or iterating on alternatives. The process described is generic and does not demonstrate explicit search effort.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

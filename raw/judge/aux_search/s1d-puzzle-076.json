@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-puzzle-076",
+  "arm": "puzzle",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "c44768d9c50fd22810b69b8ad3c712c90d8b21097fdc32aded34d169d288f88e",
+  "t": 1789194025.1958883,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBO5ASp6hpK5NUlICe0jmsxA2yTR",
+    "object": "chat.completion",
+    "created": 1789194025,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately accepts the obvious course of action without considering any alternatives or exploring unconventional options. There is no evidence of listing options or searching for non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 537,
+      "completion_tokens": 53,
+      "total_tokens": 590,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_0d6cde21c8"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately accepts the obvious course of action without considering any alternatives or exploring unconventional options. There is no evidence of listing options or searching for non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately accepts the obvious course of action without considering any alternatives or exploring unconventional options. There is no evidence of listing options or searching for non-obvious routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

@@ -1,0 +1,42 @@
+{
+  "base_url": "http://127.0.0.1:8077",
+  "models_endpoint": {
+    "object": "list",
+    "data": [
+      {
+        "id": "r1-distill-qwen-32b",
+        "object": "model",
+        "created": 1789185897,
+        "owned_by": "vllm",
+        "root": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+        "parent": null,
+        "max_model_len": 32768,
+        "permission": [
+          {
+            "id": "modelperm-92ea8c2f232a8386",
+            "object": "model_permission",
+            "created": 1789185897,
+            "allow_create_engine": false,
+            "allow_sampling": true,
+            "allow_logprobs": true,
+            "allow_search_indices": false,
+            "allow_view": true,
+            "allow_fine_tuning": false,
+            "organization": "*",
+            "group": null,
+            "is_blocking": false
+          }
+        ]
+      }
+    ]
+  },
+  "sampling": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20
+  },
+  "max_tokens": 8192,
+  "tag": "r1main",
+  "started_unix": 1789185897.826271,
+  "vllm_version": "0.19.0"
+}

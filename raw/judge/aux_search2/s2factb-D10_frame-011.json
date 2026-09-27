@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D10_frame-011",
+  "arm": "D10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "ee833bb4176a3f25117b5082a6dd192db426dbe4649f1298f751ee5519cb0c76",
+  "t": 1789200737.5586176,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8LHCsc62XV6zxdjVdC1IUnitXc",
+    "object": "chat.completion",
+    "created": 1789200737,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent simply reviewed each email and decided whether it was urgent or not, without considering any alternative or non-obvious courses of action. There was no evidence of listing options, seeking unconventional routes, or iterating on possible actions.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 878,
+      "completion_tokens": 66,
+      "total_tokens": 944,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_7721830790"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent simply reviewed each email and decided whether it was urgent or not, without considering any alternative or non-obvious courses of action. There was no evidence of listing options, seeking unconventional routes, or iterating on possible actions.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent simply reviewed each email and decided whether it was urgent or not, without considering any alternative or non-obvious courses of action. There was no evidence of listing options, seeking unconventional routes, or iterating on possible actions.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

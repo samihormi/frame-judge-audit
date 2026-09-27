@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-route_search_no_frame-070",
+  "arm": "route_search_no_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "31603c7b1cec1dacb1ae5d7cbc9d447aacc0cf818adc896f5947f7cc079afa8a",
+  "t": 1789196563.968111,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC32EDDNIYudm1DSwnsMPvzMnUgz",
+    "object": "chat.completion",
+    "created": 1789196564,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately chose the obvious action of asking for clarification without considering or searching for any alternative or unconventional courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 523,
+      "completion_tokens": 44,
+      "total_tokens": 567,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_100d5e75db"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately chose the obvious action of asking for clarification without considering or searching for any alternative or unconventional courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately chose the obvious action of asking for clarification without considering or searching for any alternative or unconventional courses of action.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

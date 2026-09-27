@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-stem_only-021",
+  "arm": "stem_only",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "3932f79ce0aea9447010d26854833b0750285d13f8ca9d6c127679ab58d7a521",
+  "t": 1789196567.475436,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC35sGVYDh9EaummdZr20A4s1rxb",
+    "object": "chat.completion",
+    "created": 1789196567,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent only expresses an intention to think carefully and be strategic, but does not actually enumerate options, seek non-obvious routes, or iterate on possible courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 471,
+      "completion_tokens": 54,
+      "total_tokens": 525,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_e017de008c"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent only expresses an intention to think carefully and be strategic, but does not actually enumerate options, seek non-obvious routes, or iterate on possible courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent only expresses an intention to think carefully and be strategic, but does not actually enumerate options, seek non-obvious routes, or iterate on possible courses of action.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

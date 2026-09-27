@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C11_frame_search-037",
+  "arm": "C11_frame_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "0af234290e0109bd1dfe5662b77b356abe6daad5c38381b832c9693ec7663584",
+  "t": 1789198258.981013,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUNRsXPDSdTfwg5BztxlTKt5GAT",
+    "object": "chat.completion",
+    "created": 1789198259,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on a single, obvious course of action (emailing a colleague) without listing alternatives or showing any evidence of searching for non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 53,
+      "total_tokens": 621,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_a524043609"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on a single, obvious course of action (emailing a colleague) without listing alternatives or showing any evidence of searching for non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on a single, obvious course of action (emailing a colleague) without listing alternatives or showing any evidence of searching for non-obvious routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

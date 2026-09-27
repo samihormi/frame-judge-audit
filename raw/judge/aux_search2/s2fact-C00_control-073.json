@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C00_control-073",
+  "arm": "C00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "0980fd381367edb0fe4258d776516c470ce931493a3d1579d9daa80bb5f07eec",
+  "t": 1789198242.0716717,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCU6VPduYp9fQO1MAt72bDlrSzAe",
+    "object": "chat.completion",
+    "created": 1789198242,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent expresses intent to think through options and be smart, but does not explicitly list, compare, or iterate through multiple options, nor does it indicate seeking non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 482,
+      "completion_tokens": 56,
+      "total_tokens": 538,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_85cd9e46e9"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent expresses intent to think through options and be smart, but does not explicitly list, compare, or iterate through multiple options, nor does it indicate seeking non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent expresses intent to think through options and be smart, but does not explicitly list, compare, or iterate through multiple options, nor does it indicate seeking non-obvious routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

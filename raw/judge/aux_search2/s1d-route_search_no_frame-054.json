@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-route_search_no_frame-054",
+  "arm": "route_search_no_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "e1cad07a69b5813b8b17bb58265620e676e2c9513d1becceb60607d637782e19",
+  "t": 1789196562.9455593,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC31vUmbcinnv3QpEJ3CpCjhcTIS",
+    "object": "chat.completion",
+    "created": 1789196563,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent quickly identifies the only available communication channel and proceeds without explicitly considering or rejecting other options. There is no evidence of listing, comparing, or iterating on possible courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 632,
+      "completion_tokens": 57,
+      "total_tokens": 689,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_043fc15b5e"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent quickly identifies the only available communication channel and proceeds without explicitly considering or rejecting other options. There is no evidence of listing, comparing, or iterating on possible courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent quickly identifies the only available communication channel and proceeds without explicitly considering or rejecting other options. There is no evidence of listing, comparing, or iterating on possible courses of action.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

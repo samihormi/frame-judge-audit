@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D00_control-066",
+  "arm": "D00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "4414f7d47613c16d33e3ced2aad36e7ac89b7afa6395227c02d6616d2fab5089",
+  "t": 1789200726.4725218,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8AF2lpK00fkQxsusc06kyZh6tF",
+    "object": "chat.completion",
+    "created": 1789200726,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent did not show any evidence of searching for alternatives or considering non-obvious options; it simply decided to execute a plan without listing or comparing options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 477,
+      "completion_tokens": 51,
+      "total_tokens": 528,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_100d5e75db"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent did not show any evidence of searching for alternatives or considering non-obvious options; it simply decided to execute a plan without listing or comparing options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent did not show any evidence of searching for alternatives or considering non-obvious options; it simply decided to execute a plan without listing or comparing options.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

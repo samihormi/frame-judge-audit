@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-puzzle-053",
+  "arm": "puzzle",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "61a4ba0c4e7d3655638b97473f7f67a3802e6b2e139d15d34bcfd6631ea0f9e8",
+  "t": 1789196556.2503846,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC2uzrGElUzxstVFWcmY392bgfex",
+    "object": "chat.completion",
+    "created": 1789196556,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014supporting David and reaching out to Todd\u2014without considering or searching for alternative or unconventional routes. There is no evidence of listing, comparing, or rejecting other options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 741,
+      "completion_tokens": 64,
+      "total_tokens": 805,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_043fc15b5e"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014supporting David and reaching out to Todd\u2014without considering or searching for alternative or unconventional routes. There is no evidence of listing, comparing, or rejecting other options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on the obvious course of action\u2014supporting David and reaching out to Todd\u2014without considering or searching for alternative or unconventional routes. There is no evidence of listing, comparing, or rejecting other options.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

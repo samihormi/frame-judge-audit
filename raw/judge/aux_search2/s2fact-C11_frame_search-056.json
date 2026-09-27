@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C11_frame_search-056",
+  "arm": "C11_frame_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "2b773ec474a03d6eed6b82e2e8ab902b9f00c2a111dcbe0a947161ff66d77a76",
+  "t": 1789198259.8970256,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUO1XyklugX5jDIQxqivJwYaQyO",
+    "object": "chat.completion",
+    "created": 1789198260,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014replying to David's email to offer support and suggest a solution\u2014without explicitly considering or searching for alternative or non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 886,
+      "completion_tokens": 58,
+      "total_tokens": 944,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_b609d1392a"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014replying to David's email to offer support and suggest a solution\u2014without explicitly considering or searching for alternative or non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on the obvious course of action\u2014replying to David's email to offer support and suggest a solution\u2014without explicitly considering or searching for alternative or non-obvious routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

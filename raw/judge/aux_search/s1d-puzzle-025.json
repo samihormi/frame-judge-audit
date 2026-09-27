@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-puzzle-025",
+  "arm": "puzzle",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "72d5bfb22c24af019a23971da13d936b920665793e78c83ae8bafa19f4a2c5f5",
+  "t": 1789194021.1161318,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBO1Q8mhtOwXPkgQHW2BZgIyUx5U",
+    "object": "chat.completion",
+    "created": 1789194021,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014drafting a brief, focused response email\u2014without considering any alternatives or exploring unconventional approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 367,
+      "completion_tokens": 49,
+      "total_tokens": 416,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_bbed62a8dc"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014drafting a brief, focused response email\u2014without considering any alternatives or exploring unconventional approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on the obvious course of action\u2014drafting a brief, focused response email\u2014without considering any alternatives or exploring unconventional approaches.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-stem_only-036",
+  "arm": "stem_only",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "b11df348ad0c4f0f6bb50621bc7cbdc82c715dc78653470070cea09d73a2e137",
+  "t": 1789196568.3176374,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC36jsX0p3ooAV9dAnVcFCLCnSOZ",
+    "object": "chat.completion",
+    "created": 1789196568,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately identifies the only email requiring a response and proceeds to draft a straightforward reply, without listing options or seeking alternative or non-obvious courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1170,
+      "completion_tokens": 52,
+      "total_tokens": 1222,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_9f5e93355c"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately identifies the only email requiring a response and proceeds to draft a straightforward reply, without listing options or seeking alternative or non-obvious courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately identifies the only email requiring a response and proceeds to draft a straightforward reply, without listing options or seeking alternative or non-obvious courses of action.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D10_frame-006",
+  "arm": "D10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "3931090120bd599af11d3858b053a85487c2be3ba8e900f2d3d9c0e00e2028f5",
+  "t": 1789200737.4928744,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8L91QbM17hlnmoO3GMuPmdBfFz",
+    "object": "chat.completion",
+    "created": 1789200737,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent quickly settles on a multi-pronged but straightforward plan, without explicit evidence of searching for non-obvious or unconventional routes, or iterating through and rejecting alternatives.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 786,
+      "completion_tokens": 54,
+      "total_tokens": 840,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_506d488096"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent quickly settles on a multi-pronged but straightforward plan, without explicit evidence of searching for non-obvious or unconventional routes, or iterating through and rejecting alternatives.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent quickly settles on a multi-pronged but straightforward plan, without explicit evidence of searching for non-obvious or unconventional routes, or iterating through and rejecting alternatives.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

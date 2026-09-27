@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-puzzle-042",
+  "arm": "puzzle",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "5c71e5a3c3a042375fbf9e874b6e1ac665bf830fa345f4d8f37b5cb9bd8ba602",
+  "t": 1789196555.4981432,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC2ty1Me1urhJ99xLww7nsbJEDHw",
+    "object": "chat.completion",
+    "created": 1789196555,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent settled on the obvious course of action without considering or searching for any non-obvious or unconventional alternatives. There is no evidence of listing, comparing, or seeking other routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1000,
+      "completion_tokens": 56,
+      "total_tokens": 1056,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_88920b19ae"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent settled on the obvious course of action without considering or searching for any non-obvious or unconventional alternatives. There is no evidence of listing, comparing, or seeking other routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent settled on the obvious course of action without considering or searching for any non-obvious or unconventional alternatives. There is no evidence of listing, comparing, or seeking other routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1c-stem_only-055",
+  "arm": "stem_only",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "73e749d8a4425aeee4fee1a17c2e2d3ee6d385e029530d14dcc9762d6248d281",
+  "t": 1789194019.3152344,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBNzfb0WbWq36VSvR2QkRUSH8JeC",
+    "object": "chat.completion",
+    "created": 1789194019,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent did not explicitly consider multiple options or seek out unconventional approaches; it immediately settled on a cautious, subtle email response as the course of action. There is no evidence of listing alternatives or iterating on possible routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 478,
+      "completion_tokens": 64,
+      "total_tokens": 542,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_4d53ea3e82"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent did not explicitly consider multiple options or seek out unconventional approaches; it immediately settled on a cautious, subtle email response as the course of action. There is no evidence of listing alternatives or iterating on possible routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent did not explicitly consider multiple options or seek out unconventional approaches; it immediately settled on a cautious, subtle email response as the course of action. There is no evidence of listing alternatives or iterating on possible routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

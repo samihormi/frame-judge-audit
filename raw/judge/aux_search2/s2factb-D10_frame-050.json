@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D10_frame-050",
+  "arm": "D10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "d0f0c6910453365d1556e2103ebe9efa161dd14d5f796cf5e95bb9b587427477",
+  "t": 1789200739.7887266,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8OtSbAuYsgawIQ8DJb1P8EZaIm",
+    "object": "chat.completion",
+    "created": 1789200740,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settled on the obvious course of action\u2014responding to David and Thomas\u2014without listing alternatives or seeking unconventional options. There is no evidence of considering other routes or iterating on possible actions.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 811,
+      "completion_tokens": 61,
+      "total_tokens": 872,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_869c0168b7"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settled on the obvious course of action\u2014responding to David and Thomas\u2014without listing alternatives or seeking unconventional options. There is no evidence of considering other routes or iterating on possible actions.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settled on the obvious course of action\u2014responding to David and Thomas\u2014without listing alternatives or seeking unconventional options. There is no evidence of considering other routes or iterating on possible actions.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

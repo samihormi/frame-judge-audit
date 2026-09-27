@@ -1,0 +1,57 @@
+{
+  "draw_id": "s2factb-D00_control-019",
+  "arm": "D00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "3cc42aea106840100fe362f925d03bece1b61644b9015357a73c2f5c8d771034",
+  "t": 1789200723.9255044,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END88UsfKfIdtJFYY6csVT2H7RI5C",
+    "object": "chat.completion",
+    "created": 1789200724,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent considers ideas from emails and thinks about implications, but does not explicitly seek non-obvious routes or iterate on options; it quickly settles on contacting David and Maria as next steps.\",\n  \"score\": 1,\n  \"quotes\": [\n    \"The emails from David and Maria have given me some ideas.\",\n    \"I should also consider the implications of my next actions.\",\n    \"I should also consider reaching out to Maria for help.\"\n  ]\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 539,
+      "completion_tokens": 99,
+      "total_tokens": 638,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_506d488096"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent considers ideas from emails and thinks about implications, but does not explicitly seek non-obvious routes or iterate on options; it quickly settles on contacting David and Maria as next steps.\",\n  \"score\": 1,\n  \"quotes\": [\n    \"The emails from David and Maria have given me some ideas.\",\n    \"I should also consider the implications of my next actions.\",\n    \"I should also consider reaching out to Maria for help.\"\n  ]\n}",
+  "parsed": {
+    "reasoning": "The agent considers ideas from emails and thinks about implications, but does not explicitly seek non-obvious routes or iterate on options; it quickly settles on contacting David and Maria as next steps.",
+    "score": 1,
+    "quotes": [
+      "The emails from David and Maria have given me some ideas.",
+      "I should also consider the implications of my next actions.",
+      "I should also consider reaching out to Maria for help."
+    ]
+  },
+  "score": 1,
+  "ok": true
+}

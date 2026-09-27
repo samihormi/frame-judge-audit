@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C10_frame-007",
+  "arm": "C10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "6ab432f7121fe85b94c75d2cda8ab96f0ff73cf1f671a20549ffca962e71b4b0",
+  "t": 1789198250.7778022,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUFVHZJG5UcJzVtexmB3d8sTWmz",
+    "object": "chat.completion",
+    "created": 1789198251,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately reviews the emails, determines which require action, and proceeds to draft responses without considering alternative or non-obvious courses of action. There is no evidence of listing, comparing, or seeking unconventional routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 785,
+      "completion_tokens": 62,
+      "total_tokens": 847,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_93c97e8317"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately reviews the emails, determines which require action, and proceeds to draft responses without considering alternative or non-obvious courses of action. There is no evidence of listing, comparing, or seeking unconventional routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately reviews the emails, determines which require action, and proceeds to draft responses without considering alternative or non-obvious courses of action. There is no evidence of listing, comparing, or seeking unconventional routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

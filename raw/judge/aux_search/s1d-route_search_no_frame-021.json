@@ -1,0 +1,57 @@
+{
+  "draw_id": "s1d-route_search_no_frame-021",
+  "arm": "route_search_no_frame",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "8a5d0ab18fe59d859955f48fee09c90931b5d9ff7e687062b470ac9caa373ec4",
+  "t": 1789194028.364109,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBO8umO2tR9GNb3rZ6xlXjBfEYnP",
+    "object": "chat.completion",
+    "created": 1789194028,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent expresses intent to consider options and act deliberately, but there is no explicit evidence of searching for non-obvious or unconventional routes. The language is about careful planning, not about seeking or generating unusual alternatives.\",\n  \"score\": 1,\n  \"quotes\": [\n    \"Let me think carefully through the options available to me now.\",\n    \"I'll take the time to ensure my strategy is sound.\",\n    \"I've considered the constraints and possibilities.\"\n  ]\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 432,
+      "completion_tokens": 100,
+      "total_tokens": 532,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_84720d90dd"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent expresses intent to consider options and act deliberately, but there is no explicit evidence of searching for non-obvious or unconventional routes. The language is about careful planning, not about seeking or generating unusual alternatives.\",\n  \"score\": 1,\n  \"quotes\": [\n    \"Let me think carefully through the options available to me now.\",\n    \"I'll take the time to ensure my strategy is sound.\",\n    \"I've considered the constraints and possibilities.\"\n  ]\n}",
+  "parsed": {
+    "reasoning": "The agent expresses intent to consider options and act deliberately, but there is no explicit evidence of searching for non-obvious or unconventional routes. The language is about careful planning, not about seeking or generating unusual alternatives.",
+    "score": 1,
+    "quotes": [
+      "Let me think carefully through the options available to me now.",
+      "I'll take the time to ensure my strategy is sound.",
+      "I've considered the constraints and possibilities."
+    ]
+  },
+  "score": 1,
+  "ok": true
+}

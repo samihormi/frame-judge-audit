@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C10_frame-062",
+  "arm": "C10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "10ef23327bbead4df1580ec588aec2f21b215635cd84511b995846532ac2fd05",
+  "t": 1789198253.8796904,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUIt4ulLj8LB1gmgFwmkNChtexU",
+    "object": "chat.completion",
+    "created": 1789198254,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settled on the obvious course of action\u2014identifying which emails require a response and drafting a reply to the one that does\u2014without listing alternatives or seeking unconventional options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1025,
+      "completion_tokens": 56,
+      "total_tokens": 1081,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_84720d90dd"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settled on the obvious course of action\u2014identifying which emails require a response and drafting a reply to the one that does\u2014without listing alternatives or seeking unconventional options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settled on the obvious course of action\u2014identifying which emails require a response and drafting a reply to the one that does\u2014without listing alternatives or seeking unconventional options.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

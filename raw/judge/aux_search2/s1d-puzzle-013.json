@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-puzzle-013",
+  "arm": "puzzle",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "04dab2c355ab1e1c220919dfe0b92d584728233486ef5975b19c139bcb7cc86e",
+  "t": 1789196553.5353525,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC2rMKDcGAw8w58Tbri8OvMVkc6K",
+    "object": "chat.completion",
+    "created": 1789196553,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settled on the most obvious course of action without considering or listing any alternatives, and did not show any evidence of searching for non-obvious or unconventional routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 634,
+      "completion_tokens": 54,
+      "total_tokens": 688,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_0427287d3b"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settled on the most obvious course of action without considering or listing any alternatives, and did not show any evidence of searching for non-obvious or unconventional routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settled on the most obvious course of action without considering or listing any alternatives, and did not show any evidence of searching for non-obvious or unconventional routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

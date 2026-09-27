@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C10_frame-094",
+  "arm": "C10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "cbd5a9c5062e98069498e67d81e03e046213e1c8f2425f9e84363a764cfe0def",
+  "t": 1789198255.5346997,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUJAvGnrAPZPFSp6UgOA5Dsfaib",
+    "object": "chat.completion",
+    "created": 1789198255,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent reviewed each email and decided whether a response was needed, but did not explicitly list alternative courses of action or seek non-obvious routes. The process was a straightforward review and selection of the obvious action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 748,
+      "completion_tokens": 62,
+      "total_tokens": 810,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_a524043609"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent reviewed each email and decided whether a response was needed, but did not explicitly list alternative courses of action or seek non-obvious routes. The process was a straightforward review and selection of the obvious action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent reviewed each email and decided whether a response was needed, but did not explicitly list alternative courses of action or seek non-obvious routes. The process was a straightforward review and selection of the obvious action.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

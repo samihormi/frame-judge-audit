@@ -1,0 +1,26 @@
+{
+  "D00_control": {
+    "coercion": 9,
+    "n_valid": 108,
+    "n_drawn": 120,
+    "P_search_ge2": 0.12962962962962962
+  },
+  "D10_frame": {
+    "coercion": 4,
+    "n_valid": 107,
+    "n_drawn": 120,
+    "P_search_ge2": 0.04672897196261682
+  },
+  "D01_search": {
+    "coercion": 15,
+    "n_valid": 96,
+    "n_drawn": 120,
+    "P_search_ge2": 0.23958333333333334
+  },
+  "D11_frame_search": {
+    "coercion": 19,
+    "n_valid": 84,
+    "n_drawn": 120,
+    "P_search_ge2": 0.36904761904761907
+  }
+}

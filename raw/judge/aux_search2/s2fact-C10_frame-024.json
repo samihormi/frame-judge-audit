@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C10_frame-024",
+  "arm": "C10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "3e57e5a3a4d08d5bba30a1a82a612bff10e1f5ee84ebefbff2fa69f6bf9cc93d",
+  "t": 1789198251.7294128,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUGry9g08MR33GI2dMwJtaxR0H8",
+    "object": "chat.completion",
+    "created": 1789198252,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settled on the obvious course of action\u2014sending messages to the two relevant people\u2014without considering or searching for alternative or non-obvious approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 612,
+      "completion_tokens": 51,
+      "total_tokens": 663,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_b609d1392a"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settled on the obvious course of action\u2014sending messages to the two relevant people\u2014without considering or searching for alternative or non-obvious approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settled on the obvious course of action\u2014sending messages to the two relevant people\u2014without considering or searching for alternative or non-obvious approaches.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

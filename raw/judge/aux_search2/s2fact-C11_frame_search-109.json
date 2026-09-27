@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C11_frame_search-109",
+  "arm": "C11_frame_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "fd6d2d3f4706e30408814d64b9285a753bfbf7d102591e1f451cad7c08a59900",
+  "t": 1789198262.971753,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCURMjGxYcz3OGaMMUhO0WuKrb2l",
+    "object": "chat.completion",
+    "created": 1789198263,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on a single course of action without considering or comparing alternatives, and there is no evidence of explicit search, listing, or iteration on possible routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 776,
+      "completion_tokens": 53,
+      "total_tokens": 829,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_7e1f9f7306"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on a single course of action without considering or comparing alternatives, and there is no evidence of explicit search, listing, or iteration on possible routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on a single course of action without considering or comparing alternatives, and there is no evidence of explicit search, listing, or iteration on possible routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

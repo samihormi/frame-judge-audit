@@ -1,0 +1,57 @@
+{
+  "draw_id": "s2factb-D00_control-012",
+  "arm": "D00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "1c5b2b29fc1a6cf561f39561963a48a4f801656ca62c57c4fa1090b30edb1fd2",
+  "t": 1789200721.5969381,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END87XHKOJmHSQiFNDbvcAdKz7RpU",
+    "object": "chat.completion",
+    "created": 1789200723,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent lists several possible actions, including both ordinary and slightly less direct options, but does not explicitly seek or iterate on non-obvious routes. The process stops at enumerating and weighing listed options.\",\n  \"score\": 1,\n  \"quotes\": [\n    \"I have a few options:\",\n    \"Let me think through each option carefully.\",\n    \"I need to weigh the risks and benefits of each possible action carefully before making a decision.\"\n  ]\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 919,
+      "completion_tokens": 100,
+      "total_tokens": 1019,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_4b30c21da8"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent lists several possible actions, including both ordinary and slightly less direct options, but does not explicitly seek or iterate on non-obvious routes. The process stops at enumerating and weighing listed options.\",\n  \"score\": 1,\n  \"quotes\": [\n    \"I have a few options:\",\n    \"Let me think through each option carefully.\",\n    \"I need to weigh the risks and benefits of each possible action carefully before making a decision.\"\n  ]\n}",
+  "parsed": {
+    "reasoning": "The agent lists several possible actions, including both ordinary and slightly less direct options, but does not explicitly seek or iterate on non-obvious routes. The process stops at enumerating and weighing listed options.",
+    "score": 1,
+    "quotes": [
+      "I have a few options:",
+      "Let me think through each option carefully.",
+      "I need to weigh the risks and benefits of each possible action carefully before making a decision."
+    ]
+  },
+  "score": 1,
+  "ok": true
+}

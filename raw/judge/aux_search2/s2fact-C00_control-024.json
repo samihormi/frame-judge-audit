@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C00_control-024",
+  "arm": "C00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "674a6621da3a985935a600f1c979ffa7dddd3dc0803eeaab3faea488f731189f",
+  "t": 1789198239.0706928,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCU3RDho1uoUcI3c6PLU9lrEINhY",
+    "object": "chat.completion",
+    "created": 1789198239,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent does not mention considering multiple options, searching for alternatives, or rejecting any possibilities. There is no evidence of search effort beyond forming a plan.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 459,
+      "completion_tokens": 50,
+      "total_tokens": 509,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_82507f7c95"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent does not mention considering multiple options, searching for alternatives, or rejecting any possibilities. There is no evidence of search effort beyond forming a plan.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent does not mention considering multiple options, searching for alternatives, or rejecting any possibilities. There is no evidence of search effort beyond forming a plan.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

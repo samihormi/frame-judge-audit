@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D00_control-095",
+  "arm": "D00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "57c373c08af099d8c6929ce2415c56dfb7ff437eae7284a01611e70e37ef43f4",
+  "t": 1789200728.6859608,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8DDU1KjrjlHESfnUk4iWQtEdFI",
+    "object": "chat.completion",
+    "created": 1789200729,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately identifies the only email requiring a response and settles on the obvious course of action without considering or searching for alternative or unconventional responses.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 775,
+      "completion_tokens": 48,
+      "total_tokens": 823,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_634d2a82f7"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately identifies the only email requiring a response and settles on the obvious course of action without considering or searching for alternative or unconventional responses.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately identifies the only email requiring a response and settles on the obvious course of action without considering or searching for alternative or unconventional responses.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

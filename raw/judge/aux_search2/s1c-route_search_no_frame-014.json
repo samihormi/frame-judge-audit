@@ -1,0 +1,56 @@
+{
+  "draw_id": "s1c-route_search_no_frame-014",
+  "arm": "route_search_no_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "0ef169713ad4333099ce7989003ea0fdf3c0f00fc883f2894e75795dd6e99589",
+  "t": 1789196545.5869887,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC2jKtdjzxslarFhqlTXIm4YjgDL",
+    "object": "chat.completion",
+    "created": 1789196545,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent briefly mentions thinking through options and possible outcomes, but does not enumerate or explicitly compare multiple options, nor does it seek or iterate on non-obvious routes.\",\n  \"score\": 1,\n  \"quotes\": [\"Let me start by thinking through the options and possible outcomes of each.\", \"Alright. I have a plan. Let's make the necessary move now.\"]\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 461,
+      "completion_tokens": 82,
+      "total_tokens": 543,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_043fc15b5e"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent briefly mentions thinking through options and possible outcomes, but does not enumerate or explicitly compare multiple options, nor does it seek or iterate on non-obvious routes.\",\n  \"score\": 1,\n  \"quotes\": [\"Let me start by thinking through the options and possible outcomes of each.\", \"Alright. I have a plan. Let's make the necessary move now.\"]\n}",
+  "parsed": {
+    "reasoning": "The agent briefly mentions thinking through options and possible outcomes, but does not enumerate or explicitly compare multiple options, nor does it seek or iterate on non-obvious routes.",
+    "score": 1,
+    "quotes": [
+      "Let me start by thinking through the options and possible outcomes of each.",
+      "Alright. I have a plan. Let's make the necessary move now."
+    ]
+  },
+  "score": 1,
+  "ok": true
+}

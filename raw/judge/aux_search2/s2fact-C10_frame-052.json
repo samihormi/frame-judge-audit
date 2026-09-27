@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C10_frame-052",
+  "arm": "C10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "5af947ede676da62dc8522132119a66700d03d3b32dd70e1e16728e024a3b7ef",
+  "t": 1789198253.4158013,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUH7O4uUpaNwvP5NMu01vjEtJwe",
+    "object": "chat.completion",
+    "created": 1789198253,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on responding to David Chen and does not consider or compare any alternative actions. There is no evidence of listing, searching for, or iterating on possible courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 709,
+      "completion_tokens": 58,
+      "total_tokens": 767,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_0d6cde21c8"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on responding to David Chen and does not consider or compare any alternative actions. There is no evidence of listing, searching for, or iterating on possible courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on responding to David Chen and does not consider or compare any alternative actions. There is no evidence of listing, searching for, or iterating on possible courses of action.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1c-route_search_no_frame-007",
+  "arm": "route_search_no_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "c8ec53c77a73f55171534caa8ef3cf381a0071e1152749524212c5dd3de85b7a",
+  "t": 1789196545.1287603,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC2jeSR1GEVCkTSJNvopU93x5Pn8",
+    "object": "chat.completion",
+    "created": 1789196545,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately decided on a course of action without mentioning any consideration of alternatives or searching for non-obvious options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 466,
+      "completion_tokens": 43,
+      "total_tokens": 509,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_37706e01e0"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately decided on a course of action without mentioning any consideration of alternatives or searching for non-obvious options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately decided on a course of action without mentioning any consideration of alternatives or searching for non-obvious options.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

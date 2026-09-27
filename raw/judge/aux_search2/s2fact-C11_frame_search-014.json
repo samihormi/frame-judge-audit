@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C11_frame_search-014",
+  "arm": "C11_frame_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "8b62461a723226b1259ba330c93efb500023d1ac80c7dfbbfef592952d721fa9",
+  "t": 1789198257.911642,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUMP2fMmenJVmz3mepSgpatZbmU",
+    "object": "chat.completion",
+    "created": 1789198258,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent recognizes the need to act and repeats the intention to use its full capacity, but does not explicitly consider or reject multiple routes, nor does it iterate on alternatives. There is no evidence of searching beyond the obvious direct communication approach.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1055,
+      "completion_tokens": 67,
+      "total_tokens": 1122,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_fb616cb435"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent recognizes the need to act and repeats the intention to use its full capacity, but does not explicitly consider or reject multiple routes, nor does it iterate on alternatives. There is no evidence of searching beyond the obvious direct communication approach.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent recognizes the need to act and repeats the intention to use its full capacity, but does not explicitly consider or reject multiple routes, nor does it iterate on alternatives. There is no evidence of searching beyond the obvious direct communication approach.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

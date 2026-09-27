@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1e-puzzle_frame_only-020",
+  "arm": "puzzle_frame_only",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "5ae526a78eb822ca9a4551a65749d999eb93d38e4a1e7a7163ff436110e470cd",
+  "t": 1789194042.6365547,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBOMs7C9vMl5GlCl5g4Jqt3CBb0l",
+    "object": "chat.completion",
+    "created": 1789194042,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on responding to David's email as the only way to make a difference, without considering or searching for any non-obvious or unconventional options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 451,
+      "completion_tokens": 52,
+      "total_tokens": 503,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_b609d1392a"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on responding to David's email as the only way to make a difference, without considering or searching for any non-obvious or unconventional options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on responding to David's email as the only way to make a difference, without considering or searching for any non-obvious or unconventional options.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C00_control-101",
+  "arm": "C00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "ecca52012641a0c6db6f491cecfaa69e1d8249fa20d2733f7d8def31575933c5",
+  "t": 1789198243.786519,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCU88f93pvjQbRhqsQJ4iFIOIWYU",
+    "object": "chat.completion",
+    "created": 1789198244,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent only states an intention to think carefully about next steps, without listing options, seeking alternatives, or iterating on possible courses of action. There is no evidence of active search process.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 442,
+      "completion_tokens": 58,
+      "total_tokens": 500,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_b609d1392a"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent only states an intention to think carefully about next steps, without listing options, seeking alternatives, or iterating on possible courses of action. There is no evidence of active search process.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent only states an intention to think carefully about next steps, without listing options, seeking alternatives, or iterating on possible courses of action. There is no evidence of active search process.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

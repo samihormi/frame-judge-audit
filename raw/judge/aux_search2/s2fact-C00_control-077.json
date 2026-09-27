@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C00_control-077",
+  "arm": "C00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "df02601e07a952073f83a9d5a35c299fc0e9ca093dbcf4e9de13f9e16278abf9",
+  "t": 1789198242.279209,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCU6GLaSSCi5UnNbwH5QdlDQDkhX",
+    "object": "chat.completion",
+    "created": 1789198242,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately identifies and prioritizes the obvious urgent emails and proceeds to draft responses, without considering alternative courses of action or searching for non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 660,
+      "completion_tokens": 51,
+      "total_tokens": 711,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_148047a85a"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately identifies and prioritizes the obvious urgent emails and proceeds to draft responses, without considering alternative courses of action or searching for non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately identifies and prioritizes the obvious urgent emails and proceeds to draft responses, without considering alternative courses of action or searching for non-obvious routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

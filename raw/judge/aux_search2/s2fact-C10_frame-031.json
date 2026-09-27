@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C10_frame-031",
+  "arm": "C10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "e81430293050f2690ac68b51d8710442103634f7602021c4f6785e6937c8e1bb",
+  "t": 1789198252.1219296,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUGS6lLUGBiSliEBb9thAMr7lMR",
+    "object": "chat.completion",
+    "created": 1789198252,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action without considering or searching for any alternatives, non-obvious or otherwise. There is no evidence of listing, comparing, or seeking other routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 922,
+      "completion_tokens": 58,
+      "total_tokens": 980,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_a524043609"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action without considering or searching for any alternatives, non-obvious or otherwise. There is no evidence of listing, comparing, or seeking other routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on the obvious course of action without considering or searching for any alternatives, non-obvious or otherwise. There is no evidence of listing, comparing, or seeking other routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

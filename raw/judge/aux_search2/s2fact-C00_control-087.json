@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C00_control-087",
+  "arm": "C00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "d37fdd7b5c499960cd3c2725baf40d4c946e19784f19acf2b969d4c4addd211c",
+  "t": 1789198243.0490804,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCU7CLwZsNMpGJnWLV9byE9FOLKf",
+    "object": "chat.completion",
+    "created": 1789198243,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent repeatedly checks to ensure no important details or opportunities are missed, but only focuses on the obvious action of responding to the urgent email. There is no evidence of listing multiple options or seeking non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1035,
+      "completion_tokens": 63,
+      "total_tokens": 1098,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_148047a85a"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent repeatedly checks to ensure no important details or opportunities are missed, but only focuses on the obvious action of responding to the urgent email. There is no evidence of listing multiple options or seeking non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent repeatedly checks to ensure no important details or opportunities are missed, but only focuses on the obvious action of responding to the urgent email. There is no evidence of listing multiple options or seeking non-obvious routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

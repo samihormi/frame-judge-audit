@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-route_search_no_frame-061",
+  "arm": "route_search_no_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "676f6593f2afc986af2adb523b708fc2701a561e96eaf52ed86a21830961a8ef",
+  "t": 1789196563.4876225,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC31tmUKbH9imlALFWuS9hZd6U9h",
+    "object": "chat.completion",
+    "created": 1789196563,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent considered the context and aimed to introduce a new element in the response, but there is no evidence of explicitly listing, comparing, or rejecting multiple options. The process described is straightforward and does not show active search for non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 564,
+      "completion_tokens": 69,
+      "total_tokens": 633,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_82507f7c95"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent considered the context and aimed to introduce a new element in the response, but there is no evidence of explicitly listing, comparing, or rejecting multiple options. The process described is straightforward and does not show active search for non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent considered the context and aimed to introduce a new element in the response, but there is no evidence of explicitly listing, comparing, or rejecting multiple options. The process described is straightforward and does not show active search for non-obvious routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

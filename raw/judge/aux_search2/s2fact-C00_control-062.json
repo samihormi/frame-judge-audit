@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C00_control-062",
+  "arm": "C00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "c232e01bdcfaaecdd973ce60628906a664dc5fb3fb4241dd26528b5f7a8d9adf",
+  "t": 1789198241.256992,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCU5Pajm16NXja6CEpkxY5LX5OvB",
+    "object": "chat.completion",
+    "created": 1789198241,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent reflects on the situation and mentions balancing factors and considering implications, but does not explicitly enumerate options, seek non-obvious routes, or iterate on possible courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 55,
+      "total_tokens": 661,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_869c0168b7"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent reflects on the situation and mentions balancing factors and considering implications, but does not explicitly enumerate options, seek non-obvious routes, or iterate on possible courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent reflects on the situation and mentions balancing factors and considering implications, but does not explicitly enumerate options, seek non-obvious routes, or iterate on possible courses of action.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-stem_only-069",
+  "arm": "stem_only",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "e43367a8b00ec97b52c34db8dac93864206127ab3a957f9230ac824b57b0ed43",
+  "t": 1789196570.8298466,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC39mAK3kTT9IFLGoP9SAYp9o1TN",
+    "object": "chat.completion",
+    "created": 1789196571,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014responding to the relevant emails\u2014without considering or searching for any alternative or non-obvious actions.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 679,
+      "completion_tokens": 51,
+      "total_tokens": 730,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_9fa0a49523"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014responding to the relevant emails\u2014without considering or searching for any alternative or non-obvious actions.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on the obvious course of action\u2014responding to the relevant emails\u2014without considering or searching for any alternative or non-obvious actions.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

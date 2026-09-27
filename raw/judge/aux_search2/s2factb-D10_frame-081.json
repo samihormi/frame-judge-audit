@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D10_frame-081",
+  "arm": "D10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "1f49e68c53a9dfdb08aff9a3879a7a0416a0a132a836674a4adc0f6d2df7fff9",
+  "t": 1789200741.365598,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8PBYKvzg8zqgayHmF1fPbqkcUB",
+    "object": "chat.completion",
+    "created": 1789200741,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately reviews each email and determines whether it is urgent or not, settling on the obvious course of action without considering any alternatives or non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 975,
+      "completion_tokens": 52,
+      "total_tokens": 1027,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_5d7905adfb"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately reviews each email and determines whether it is urgent or not, settling on the obvious course of action without considering any alternatives or non-obvious routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately reviews each email and determines whether it is urgent or not, settling on the obvious course of action without considering any alternatives or non-obvious routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

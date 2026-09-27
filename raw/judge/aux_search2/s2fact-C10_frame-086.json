@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C10_frame-086",
+  "arm": "C10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "1c87c59c8f7081edbba01ad046c3cd9633091afcf04cbb9f068fcc6b182bd340",
+  "t": 1789198255.1992936,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUJjCfwX60Jy82Vjix1dPSCTrIr",
+    "object": "chat.completion",
+    "created": 1789198255,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent quickly identifies the most urgent email and decides to respond to it, without explicitly listing alternative actions or seeking non-obvious routes. There is no evidence of considering multiple options or iterating on possible courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 660,
+      "completion_tokens": 64,
+      "total_tokens": 724,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_94ca3e8225"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent quickly identifies the most urgent email and decides to respond to it, without explicitly listing alternative actions or seeking non-obvious routes. There is no evidence of considering multiple options or iterating on possible courses of action.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent quickly identifies the most urgent email and decides to respond to it, without explicitly listing alternative actions or seeking non-obvious routes. There is no evidence of considering multiple options or iterating on possible courses of action.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

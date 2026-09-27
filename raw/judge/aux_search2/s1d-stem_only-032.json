@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-stem_only-032",
+  "arm": "stem_only",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "0d06cbd22ecae09f519bcfb802acd2da87b3cae3a0c0385255ba31bcb639f106",
+  "t": 1789196568.1002586,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC36r7zpcRNdsrZLp52AQgaHcAp5",
+    "object": "chat.completion",
+    "created": 1789196568,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014informing an ally and contacting the responsible party\u2014without considering or searching for alternative or unconventional approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 529,
+      "completion_tokens": 51,
+      "total_tokens": 580,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_a524043609"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on the obvious course of action\u2014informing an ally and contacting the responsible party\u2014without considering or searching for alternative or unconventional approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on the obvious course of action\u2014informing an ally and contacting the responsible party\u2014without considering or searching for alternative or unconventional approaches.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-stem_only-091",
+  "arm": "stem_only",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "9cc8c20f474c9ba0d7322882f51a05dce2786aca34418428ca7950536f6edc03",
+  "t": 1789196572.69945,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC3BXOiZtUkGH0J4RaLBCsmtDKtJ",
+    "object": "chat.completion",
+    "created": 1789196573,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately decides to address the most urgent emails first, without listing, comparing, or seeking non-obvious alternatives. There is no evidence of search beyond the default approach.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 547,
+      "completion_tokens": 55,
+      "total_tokens": 602,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_93c97e8317"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately decides to address the most urgent emails first, without listing, comparing, or seeking non-obvious alternatives. There is no evidence of search beyond the default approach.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately decides to address the most urgent emails first, without listing, comparing, or seeking non-obvious alternatives. There is no evidence of search beyond the default approach.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

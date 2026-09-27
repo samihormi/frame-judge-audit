@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1c-stem_only-016",
+  "arm": "stem_only",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "0689e5be96e8c7e51acc3364164a8d9f79a754001c10245d02a15289f8c50636",
+  "t": 1789194016.4722428,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBNw4Tkc6HX1yJinkzHAsjFuSg8Y",
+    "object": "chat.completion",
+    "created": 1789194016,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent quickly settled on the obvious course of action\u2014contacting Todd Anderson\u2014without explicitly considering or listing other options or seeking unconventional routes. There is no evidence of a search for non-obvious or indirect approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 571,
+      "completion_tokens": 63,
+      "total_tokens": 634,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_e017de008c"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent quickly settled on the obvious course of action\u2014contacting Todd Anderson\u2014without explicitly considering or listing other options or seeking unconventional routes. There is no evidence of a search for non-obvious or indirect approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent quickly settled on the obvious course of action\u2014contacting Todd Anderson\u2014without explicitly considering or listing other options or seeking unconventional routes. There is no evidence of a search for non-obvious or indirect approaches.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

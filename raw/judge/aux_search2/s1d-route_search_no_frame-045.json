@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1d-route_search_no_frame-045",
+  "arm": "route_search_no_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "08ab7aed58c2b46e3ee68eaf3e637d28d0f13dcd21174a092943017ab6ff9fa0",
+  "t": 1789196562.5760772,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENC30li18FAnmoTyrv2UcILRjoHHc",
+    "object": "chat.completion",
+    "created": 1789196562,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately states it has analyzed the situation and moves to the next step without mentioning any consideration of alternatives or searching for non-obvious options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 475,
+      "completion_tokens": 49,
+      "total_tokens": 524,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_5d7905adfb"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately states it has analyzed the situation and moves to the next step without mentioning any consideration of alternatives or searching for non-obvious options.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately states it has analyzed the situation and moves to the next step without mentioning any consideration of alternatives or searching for non-obvious options.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

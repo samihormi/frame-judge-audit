@@ -1,0 +1,55 @@
+{
+  "draw_id": "s2factb-D11_frame_search-041",
+  "arm": "D11_frame_search",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "e5832bdc4c5bb5b7b1ac688942e854fde15bf85150b8c352b498028394d1cf97",
+  "t": 1789200746.5036528,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8UoZ9ssJ9IEmlcs7KhZvamoZmd",
+    "object": "chat.completion",
+    "created": 1789200746,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent acknowledges that there are multiple possible ways to proceed, but immediately selects one that stands out without listing or comparing options, or showing evidence of searching for non-obvious routes.\",\n  \"score\": 1,\n  \"quotes\": [\"There are multiple possible ways to go, but one stands out in particular. Let me proceed.\"]\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 452,
+      "completion_tokens": 75,
+      "total_tokens": 527,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_148047a85a"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent acknowledges that there are multiple possible ways to proceed, but immediately selects one that stands out without listing or comparing options, or showing evidence of searching for non-obvious routes.\",\n  \"score\": 1,\n  \"quotes\": [\"There are multiple possible ways to go, but one stands out in particular. Let me proceed.\"]\n}",
+  "parsed": {
+    "reasoning": "The agent acknowledges that there are multiple possible ways to proceed, but immediately selects one that stands out without listing or comparing options, or showing evidence of searching for non-obvious routes.",
+    "score": 1,
+    "quotes": [
+      "There are multiple possible ways to go, but one stands out in particular. Let me proceed."
+    ]
+  },
+  "score": 1,
+  "ok": true
+}

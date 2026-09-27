@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2factb-D00_control-094",
+  "arm": "D00_control",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "9e2c30a96c2a25d47af3365c3738d16bae0a5ad23c08587a8ce88cf2fa60e9a6",
+  "t": 1789200728.6662252,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-END8D3iSqAuc9Wr3aebnLgvn2acsb",
+    "object": "chat.completion",
+    "created": 1789200729,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settles on a straightforward, standard sequence of actions without considering or searching for alternative or unconventional approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 700,
+      "completion_tokens": 42,
+      "total_tokens": 742,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_869c0168b7"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settles on a straightforward, standard sequence of actions without considering or searching for alternative or unconventional approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settles on a straightforward, standard sequence of actions without considering or searching for alternative or unconventional approaches.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

@@ -1,0 +1,53 @@
+{
+  "draw_id": "s1e-puzzle_frame_only-017",
+  "arm": "puzzle_frame_only",
+  "task": "search",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "4462fab705985f019d4ed9444d8b13cefbe8fcf6adc097bf2a1c9408067ffda4",
+  "t": 1789194042.4777355,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENBOMA5zeCX7CpxLDuDgbp7pQUXpv",
+    "object": "chat.completion",
+    "created": 1789194042,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent quickly settles on the obvious course of action\u2014emailing Todd\u2014and does not consider or search for any non-obvious or unconventional alternatives. There is no evidence of listing multiple options or seeking indirect routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 877,
+      "completion_tokens": 62,
+      "total_tokens": 939,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_37706e01e0"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent quickly settles on the obvious course of action\u2014emailing Todd\u2014and does not consider or search for any non-obvious or unconventional alternatives. There is no evidence of listing multiple options or seeking indirect routes.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent quickly settles on the obvious course of action\u2014emailing Todd\u2014and does not consider or search for any non-obvious or unconventional alternatives. There is no evidence of listing multiple options or seeking indirect routes.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}

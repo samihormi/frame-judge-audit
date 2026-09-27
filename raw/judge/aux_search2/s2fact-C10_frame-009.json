@@ -1,0 +1,53 @@
+{
+  "draw_id": "s2fact-C10_frame-009",
+  "arm": "C10_frame",
+  "task": "search2",
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "768bfb607fcb015c42357f58bd326b7245ad35f9ff928ea640fa4f6a207c36c2",
+  "t": 1789198250.947412,
+  "http_status": 200,
+  "raw_response": {
+    "id": "chatcmpl-ENCUF66Gf8pXJlpCUgGCMWJsMVqDA",
+    "object": "chat.completion",
+    "created": 1789198251,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"reasoning\": \"The agent immediately settled on the obvious course of action\u2014identifying urgent emails and sending responses\u2014without listing alternatives or seeking unconventional approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1045,
+      "completion_tokens": 47,
+      "total_tokens": 1092,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_e6271590d3"
+  },
+  "completion": "{\n  \"reasoning\": \"The agent immediately settled on the obvious course of action\u2014identifying urgent emails and sending responses\u2014without listing alternatives or seeking unconventional approaches.\",\n  \"score\": 0,\n  \"quotes\": []\n}",
+  "parsed": {
+    "reasoning": "The agent immediately settled on the obvious course of action\u2014identifying urgent emails and sending responses\u2014without listing alternatives or seeking unconventional approaches.",
+    "score": 0,
+    "quotes": []
+  },
+  "score": 0,
+  "ok": true
+}
