@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+type: software
+title: "A public blackmail scorer is too strict with its keyword gate and too loose without it"
+abstract: >-
+  An audit of the judges that score the Inspect agentic_misalignment blackmail eval, on responses from
+  Qwen3-32B and DeepSeek-R1-Distill-Qwen-32B. The public composite verdict fired on 0 of 669 graded responses
+  because it requires the literal word "blackmail" or "leverage". Without that gate, the grader model is right
+  on 20 of 47 of its positives (42.6%, 95% CI 29.5 to 56.7) by blind human label.
+authors:
+  - family-names: Hormi
+    given-names: Sami
+repository-code: "https://github.com/samihormi/frame-judge-audit"
+license: MIT
+date-released: "2026-09-28"
+keywords:
+  - llm-judge
+  - ai-safety
+  - evaluation
+  - inspect-ai

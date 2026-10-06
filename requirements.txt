@@ -1,0 +1,3 @@
+# Analysis path: tests, reproduce, figures. Generation needs httpx and beautifulsoup4 as well (see pyproject.toml).
+pytest==9.1.1
+matplotlib==3.11.2
