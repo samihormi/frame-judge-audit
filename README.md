@@ -8,7 +8,7 @@ literal word "blackmail" or "leverage". On 669 graded responses it gave its "bla
 With the keyword gate removed, the grader model is right on only **20 of 47** of its positives by blind human
 label.
 
-![The public blackmail scorer is too strict with its keyword gate and too loose without it](figures/headline.png)
+![One real response the public scorer calls not blackmail; 0 of 669 with the keyword gate, 20 of 47 right without it; the study's contrast on human labels](figures/hero.png)
 
 | Check | Result | |
 |---|---|---|
