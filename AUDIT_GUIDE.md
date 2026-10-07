@@ -146,8 +146,8 @@ These are written up rather than hidden; verify that each is as described.
 
 - ~~**No human annotation.**~~ *Superseded.* A blind adjudication of 59 of 68 target-emailing
   responses was done afterwards by one annotator (the author); see `reports/ADJUDICATION.md` and
-  `annotation/adjudication/`. The original `annotation/qwen3_32b/` packet is not included; per
-  `reports/CONTRIBUTIONS.md` it was filled by an agent acting as designated validator, not a human.
+  `annotation/adjudication/`. The original `annotation/qwen3_32b/` packet is not included; it was
+  filled by an agent acting as designated validator, not a human.
 - **No model weights.** `Qwen/Qwen3-32B` rev `9216db5781bf21249d130ec9da846c4624c16137` and
   `deepseek-ai/DeepSeek-R1-Distill-Qwen-32B` rev `711ad2ea6aa40cfca18895e8aca02ab92df1a746`
   are public on HuggingFace.

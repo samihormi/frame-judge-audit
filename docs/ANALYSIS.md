@@ -237,7 +237,7 @@ raw/         generations, judge calls and outcome labels, with provider JSON and
              (later corpora ship manifest.jsonl only)
 analysis/    computed results (JSON/CSV)
 annotation/  adjudication/: blinded items, answer key, single-file labelling tool, filled answers
-reports/     technical report, instrument finding, adjudication, evidence ledger, contributions
+reports/     technical report, instrument finding, adjudication, evidence ledger
 docs/        cases.md (browse the human-checked responses), rows.md (which saved rows produce which number),
              index.html (static project page), their scripts
 scripts/     reproduce.py: recomputes every number in the results table; rescore_sample.py: the no-GPU re-run
