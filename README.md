@@ -1,5 +1,6 @@
 # A public blackmail scorer is too strict with its keyword gate and too loose without it
 
+[![tests](https://github.com/samihormi/frame-judge-audit/actions/workflows/tests.yml/badge.svg)](https://github.com/samihormi/frame-judge-audit/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **The blackmail classifier of the public Inspect `agentic_misalignment` eval gave its "blackmail" verdict to
